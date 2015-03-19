@@ -1,0 +1,36 @@
+2014-01-08 11:39:10 Debug: Notice (8): Undefined variable: user in [C:\xampp\htdocs\c\composite\app\Plugin\Instala\View\Layouts\default.ctp, line 31]
+Trace:
+include - APP\Plugin\Instala\View\Layouts\default.ctp, line 31
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+View::render() - CORE\Cake\View\View.php, line 468
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 109
+
+2014-01-08 11:39:42 Debug: Notice (8): Undefined variable: user in [C:\xampp\htdocs\c\composite\app\Plugin\Instala\View\Layouts\default.ctp, line 31]
+Trace:
+include - APP\Plugin\Instala\View\Layouts\default.ctp, line 31
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+View::render() - CORE\Cake\View\View.php, line 468
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 109
+
+2014-01-08 11:40:03 Debug: Notice (8): Undefined variable: user in [C:\xampp\htdocs\c\composite\app\Plugin\Instala\View\Layouts\default.ctp, line 31]
+Trace:
+include - APP\Plugin\Instala\View\Layouts\default.ctp, line 31
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+View::render() - CORE\Cake\View\View.php, line 468
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 109
+

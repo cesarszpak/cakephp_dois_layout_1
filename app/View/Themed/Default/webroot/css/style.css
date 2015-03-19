@@ -1,0 +1,140 @@
+/* CSS Document */
+#header .container {
+	padding-top:40px;
+	height:580px;
+}
+
+.logotipo,.logotipo:hover{
+	color:#FFF;
+	font-size:76px;
+	font-weight:bold;
+	text-shadow:0 0 2px #FFF,0 0 20px #003,0 0 6px #FFF,2px 2px 10px #003;
+	/*text-decoration:line-through;*/
+}
+.logotipo span.em{
+	color:#000;
+}
+nav.menu-desktop{
+	position:absolute;
+	background:rgba(0,0,0,0.5);
+	border-radius:5px;
+	padding:10px;
+	top:30px;
+	right:0;
+}
+nav.menu-desktop ul,nav.menu-desktop ul li{
+	padding:0;
+	margin:0;
+	display:inline-block;
+}
+nav.menu-desktop ul li a{
+	color:#FFF;
+	padding:0 10px;
+}
+nav.menu-desktop:hover{
+	opacity:0.9;
+}
+.dropdown-menu{
+	width:100%;
+	text-align:center;
+}
+.breadcrumbs{
+	min-height:65px;
+	line-height:65px;
+}
+.breadcrumbs img{
+	vertical-align:bottom;
+}
+.breadcrumbs:after{
+	display:block;
+	content:"";
+	background:url(../img/sombra-bc.png) center top no-repeat;
+	height:24px;
+}
+
+
+.conteudo-principal{
+	padding:20px 0;
+}
+
+.legenda-principal  {
+	position:absolute;
+	top:50%;
+	left:50%;
+	background:rgba(255,255,255,0.5);
+	padding:20px;
+	width:350px;
+	margin-left:-200px;
+	margin-top:115px;
+	color:#000;
+	z-index:-1;
+	border-radius:10px;
+	box-shadow:0 0 5px #000,inset 0 0 10px #FFF,inset 0 10px 10px #FFF,inset 0 -10px 10px rgba(0,0,0,0.5);
+}
+.legenda-principal h3{
+	text-shadow:0 0 3px #FFF;
+	font-weight:normal;
+}
+
+#conteudo {
+	background:rgba( 255,255,255,0.3);
+	max-width:1220px;
+	margin:0 auto;
+	padding:10px;
+}
+#conteudo .conteudo{
+	background:#FFF;
+}
+#footer,#footer nav ul li a{
+	color:#FFF;
+}
+#footer{
+	height:40px;
+	line-height:40px;
+}
+#footer nav ul li{
+	display:inline-block;
+}
+#footer nav ul li a{
+	padding:10px 20px;
+}
+.p-relative{
+	position:relative;
+}
+.sozinho{
+	padding:30px 0;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 1200px) {
+
+}
+@media (max-width: 979px){
+	.mobile-center{
+		width:100%;
+		text-align:center;
+	}
+}
+@media (min-width: 768px) and (max-width: 979px){
+}
+@media (max-width: 767px) {
+	.breadcrumbs img{
+		vertical-align:middle;
+	}
+	.conteudo [class*="span"]{
+		padding: 0 10px;
+	}
+}
